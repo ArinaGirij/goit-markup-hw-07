@@ -18,7 +18,7 @@
     padding-top: 24px;
     padding-bottom: 24px;
 
-    color: $accent;
+    color: $accent-color;
     text-decoration: none;
     font-family: Raleway;
     font-weight: 700;
@@ -34,7 +34,7 @@
   }
 
   .name {
-    color: $grey-color;
+    color: $primary-text-color;
   }
 
   .site-nav {
@@ -64,7 +64,7 @@
     bottom: 0;
     width: 100%;
     height: 4px;
-    background-color: $accent;
+    background-color: $accent-color;
 
     opacity: 0;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -93,7 +93,7 @@
 
   .site-nav-link:hover,
   .site-nav-link:focus {
-    color: $accent;
+    color: $accent-color;
   }
 
   .auth-nav {
@@ -113,7 +113,7 @@
     display: flex;
     align-items: center;
     padding: 32px 0;
-    color: $text-color;
+    color: $primary-text-color;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -125,7 +125,7 @@
 
   .auth-nav-link:hover,
   .auth-nav-link:focus {
-    color: $accent;
+    color: $accent-color;
   }
 
   .icon-envelope {
