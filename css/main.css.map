@@ -2,7 +2,20 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../sass/main.scss"
+        "../sass/main.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/base/_base-styles.scss",
+        "../sass/components/_header.scss",
+        "../sass/components/_hero-section.scss",
+        "../sass/components/_modal.scss",
+        "../sass/components/_features-section.scss",
+        "../sass/components/_work-section.scss",
+        "../sass/components/_team-section.scss",
+        "../sass/components/_clients-section.scss",
+        "../sass/components/_portfolio.scss",
+        "../sass/components/_buttons.scss",
+        "../sass/components/_card-set.scss",
+        "../sass/components/_footer.scss"   
     ],
     "names": [],
     "file": "main.css"
