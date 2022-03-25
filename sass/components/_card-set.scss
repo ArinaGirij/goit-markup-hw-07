@@ -7,15 +7,15 @@
   &__item {
     border: 1px solid #eeeeee;
 
-    margin-left: var(--card-set-gap);
-    margin-bottom: var(--card-set-gap);
-    flex-basis: calc(100% / 3 - var(--card-set-gap));
+    margin-left: 30;
+    margin-bottom: 30;
+    flex-basis: calc(100% / 3 - 30);
   }
 
   &__link {
     display: block;
 
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -73,28 +73,28 @@
     letter-spacing: 0.03em;
 
     color: #fff;
-    background-color: var(--bgc);
+    background-color: $accent-color;
 
     transform: translateY(101%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   &__img {
-    color: var(--title-text-color);
+    color: $title-black;
     font-size: 18px;
     line-height: 2;
   }
 
   &__item:hover .card-paragraph {
     transform: translateY(0);
-    color: #fff;
+    color: $background-white;
   }
   &__cards {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 24px;
     padding-left: 24px;
-    border: 1px solid #eeeeee;
+    border: 1px solid $border-portfolio;
     border-top: 0px;
   }
 
