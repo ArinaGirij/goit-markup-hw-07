@@ -17,28 +17,42 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body >
-    <header class="header">
-      <div class="container">
-      <a href="" class="header-nav__link">Web<span class="header-nav__logo">Studio</span></a>
-      <nav>
-        <ul class="header-list">
-          <li>
-            <a href="./index.html" class="header-list__link">Студия</a></li>
-          <li>
-            <a href="" class="header-list__link current">Портфолио</a></li> 
-          <li>
-            <a href="" class="header-list__link">Контакты</a></li>
-      </nav>
-      <ul class="auth-nav">
-        <li class="auth-nav-item"><a href="mailto:info@devstudio.com" class="auth-nav-link">
-          <svg class="icon-envelope">
+<header class="header">
+      <div class="container header-container">
+        <a href="./index.html" class="header-container__link"
+          >Web<span class="header-container__logo">Studio</span></a
+        >
+        <nav>
+          <ul class="header-list">
+            <li class="header-list__item">
+              <a href="./index.html" class="header-list__link">Студия</a>
+            </li>
+            <li class="header-list__item">
+              <a href="" class="header-list__link current">Портфолио</a>
+            </li>
+            <li class="header-list__item">
+              <a href="" class="header-list__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contacts">
+          <li class="header-contacts__item">
+            <a href="mailto:info@devstudio.com" class="header-contacts__link">
+              <svg class="header-contacts__envelope">
                 <use href="./images/symbol-defs.svg#icon-envelope-hover"></use>
-              </svg>info@devstudio.com</a></li>
-        <li class="auth-nav-item"><a href="tel:+380961111111" class="auth-nav-link">
-          <svg class="icon-phone">
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="header-contacts__item">
+            <a href="tel:+380961111111" class="header-contacts__link">
+              <svg class="header-contacts__phone">
                 <use href="./images/symbol-defs.svg#icon-phone"></use>
-              </svg>+380961111111</a></li>
-      </ul>
+              </svg>
+              +380961111111</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -46,18 +60,18 @@
 
         <div class="container">
       <h1 class="visually-hidden">PORTFOLIO</h1>
-      <ul class="all-button">
-        <li class="button-item"><button type="button" class="button-primary">Все</button></li>
-        <li class="button-item"><button type="button" class="button">Веб-сайты</button></li>
-        <li class="button-item"><button type="button" class="button">Приложения</button></li>
-        <li class="button-item"><button type="button" class="button">Дизайн</button></li>
-        <li class="button-item"><button type="button" class="button">Маркетинг</button></li>
+      <ul class="section-button">
+        <li class="section-button__item"><button type="button" class="section-button__primary">Все</button></li>
+        <li class="section-button__item"><button type="button" class="section-button__button">Веб-сайты</button></li>
+        <li class="section-button__item"><button type="button" class="section-button__button">Приложения</button></li>
+        <li class="section-button__item"><button type="button" class="section-button__button">Дизайн</button></li>
+        <li class="section-button__item"><button type="button" class="section-button__button">Маркетинг</button></li>
       
     </ul>
 
       <ul class="card-set">
         <li class="card-set__item">
-          <a href="" class="ccard-set__link">
+          <a href="" class="card-set__link">
           <div class="card-set__div">   
         <img src="./images/img-8.jpg" alt="Технокряк" width="370px">
         <p class="card-set__text">Технокряк это современная площадка 
