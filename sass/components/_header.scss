@@ -32,25 +32,26 @@
   &__logo {
     color: $title-black;
   }
+}
 
-  .header-list {
-    display: flex;
+.header-list {
+  display: flex;
 
-    color: $title-black;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-  }
-  &-item {
+  color: $title-black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  &__item {
     margin-right: 50px;
     position: relative;
   }
-  &-item:last-child {
+  &__item:last-child {
     margin-right: 0px;
   }
 
-  &-item::after {
+  &__item::after {
     content: "";
     display: block;
 
@@ -66,11 +67,11 @@
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &-item:hover::after {
+  &__item:hover::after {
     opacity: 1;
   }
 
-  &-link {
+  &__link {
     padding: 32px 0;
     display: block;
 
@@ -87,25 +88,25 @@
     color: var(--bgc);
   }
 
-  &-link:hover,
-  &-link:focus {
+  &__link:hover,
+  &__link:focus {
     color: $accent-color;
   }
+}
 
-  .header-contacts {
-    display: flex;
-    margin-left: auto;
-  }
+.header-contacts {
+  display: flex;
+  margin-left: auto;
 
-  &-item {
+  &__item {
     margin-right: 50px;
   }
 
-  &-item:last-child {
+  &__item:last-child {
     margin-right: 0px;
   }
 
-  &-link {
+  &__link {
     display: flex;
     align-items: center;
     padding: 32px 0;
@@ -119,23 +120,23 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &-link:hover,
-  &-link:focus {
+  &__link:hover,
+  &__link:focus {
     color: $accent-color;
   }
 
-  &-envelope {
+  &__envelope {
     margin-right: 10px;
 
     width: 16px;
     height: 12px;
     fill: currentColor;
   }
-  &-envelope:hover {
+  &__envelope:hover {
     fill: var(--bgc);
   }
 
-  &-phone {
+  &__phone {
     margin-right: 10px;
 
     width: 10px;
@@ -143,7 +144,7 @@
     fill: currentColor;
   }
 
-  &-phone:hover {
+  &__phone:hover {
     fill: var(--bgc);
   }
 }
