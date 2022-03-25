@@ -9,11 +9,11 @@
   padding: 0 15px;
 }
 
-.header-nav {
+.header-container {
   display: flex;
   align-items: center;
 
-  .header-nav__logo {
+  &__link {
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -33,11 +33,7 @@
     color: $title-black;
   }
 
-  .name {
-    color: $primary-text-color;
-  }
-
-  .site-nav {
+  .header-list {
     display: flex;
 
     color: $title-black;
@@ -46,15 +42,15 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
   }
-  .site-nav-item {
+  &-item {
     margin-right: 50px;
     position: relative;
   }
-  .site-nav-item:last-child {
+  &-item:last-child {
     margin-right: 0px;
   }
 
-  .site-nav-item::after {
+  &-item::after {
     content: "";
     display: block;
 
@@ -70,11 +66,11 @@
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .site-nav-item:hover::after {
+  &-item:hover::after {
     opacity: 1;
   }
 
-  .site-nav-link {
+  &-link {
     padding: 32px 0;
     display: block;
 
@@ -91,25 +87,25 @@
     color: var(--bgc);
   }
 
-  .site-nav-link:hover,
-  .site-nav-link:focus {
+  &-link:hover,
+  &-link:focus {
     color: $accent-color;
   }
 
-  .auth-nav {
+  .header-contacts {
     display: flex;
     margin-left: auto;
   }
 
-  .auth-nav-item {
+  &-item {
     margin-right: 50px;
   }
 
-  .auth-nav-item:last-child {
+  &-item:last-child {
     margin-right: 0px;
   }
 
-  .auth-nav-link {
+  &-link {
     display: flex;
     align-items: center;
     padding: 32px 0;
@@ -123,23 +119,23 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .auth-nav-link:hover,
-  .auth-nav-link:focus {
+  &-link:hover,
+  &-link:focus {
     color: $accent-color;
   }
 
-  .icon-envelope {
+  &-envelope {
     margin-right: 10px;
 
     width: 16px;
     height: 12px;
     fill: currentColor;
   }
-  .icon-envelope:hover {
+  &-envelope:hover {
     fill: var(--bgc);
   }
 
-  .icon-phone {
+  &-phone {
     margin-right: 10px;
 
     width: 10px;
@@ -147,7 +143,7 @@
     fill: currentColor;
   }
 
-  .icon-phone:hover {
+  &-phone:hover {
     fill: var(--bgc);
   }
 }
