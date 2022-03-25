@@ -951,21 +951,22 @@ img {
 }
 
 .card-set {
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: calc(-1 * 30);
-  margin-bottom: calc(-1 * 30);
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-bottom: calc(-1 * var(--card-set-gap));
 }
 
 .card-set__item {
   border: 1px solid #eeeeee;
-  margin-left: 30;
-  margin-bottom: 30;
-  -ms-flex-preferred-size: calc(100% / 3 - 30);
-      flex-basis: calc(100% / 3 - 30);
+  margin-left: var(--card-set-gap);
+  margin-bottom: var(--card-set-gap);
+  -ms-flex-preferred-size: calc(100% / 3 - var(--card-set-gap));
+      flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
 
 .card-set__link {
