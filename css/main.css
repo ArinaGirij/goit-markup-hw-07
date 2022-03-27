@@ -183,6 +183,12 @@ img {
   fill: var(--bgc);
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .hero-section {
   padding: 200px 0;
   margin-right: auto;
@@ -195,12 +201,6 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-}
-
-.hero-section .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .hero-section__title {
