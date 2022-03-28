@@ -84,8 +84,8 @@
     line-height: 2;
   }
 
-  &__item:hover &__text,
-  &__item:focus &__text {
+  &__link:hover &__text,
+  &__link:focus &__text {
     transform: translateY(0);
     color: $background-white;
   }
