@@ -636,6 +636,7 @@ textarea {
 .section-work {
   position: relative;
   padding-top: 0px;
+  padding-bottom: 94px;
 }
 
 .section-work__photo {
@@ -1044,8 +1045,8 @@ img {
   line-height: 2;
 }
 
-.card-set__item:hover .card-set__text,
-.card-set__item:focus .card-set__text {
+.card-set__link:hover .card-set__text,
+.card-set__link:focus .card-set__text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   color: #ffffff;
