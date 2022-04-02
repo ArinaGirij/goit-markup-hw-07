@@ -89,10 +89,10 @@
   &__link:focus {
     color: $accent-color;
   }
-}
 
-.current {
-  color: var(--bgc);
+  &.current {
+    color: $accent-color;
+  }
 }
 
 .header-contacts {
