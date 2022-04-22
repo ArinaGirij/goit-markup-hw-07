@@ -183,15 +183,18 @@
   border: 1px solid $accent-color;
 }
 
-.form-modal:hover .name-modal {
+.form-modal:hover .name-modal,
+.form-modal:focus .name-modal {
   fill: $accent-color;
 }
 
-.form-modal:hover .mobile-modal {
+.form-modal:hover .mobile-modal,
+.form-modal:focus .mobile-modal {
   fill: $accent-color;
 }
 
-.form-modal:hover .email-modal {
+.form-modal:hover .email-modal,
+.form-modal:focus .email-modal {
   fill: $accent-color;
 }
 
@@ -296,8 +299,8 @@ textarea {
   cursor: pointer;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal-button:hover {
-  background-color: #188ce8;
+  &:hover {
+    background-color: #188ce8;
+  }
 }

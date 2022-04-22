@@ -446,15 +446,18 @@ img {
   border: 1px solid #2196f3;
 }
 
-.form-modal:hover .name-modal {
+.form-modal:hover .name-modal,
+.form-modal:focus .name-modal {
   fill: #2196f3;
 }
 
-.form-modal:hover .mobile-modal {
+.form-modal:hover .mobile-modal,
+.form-modal:focus .mobile-modal {
   fill: #2196f3;
 }
 
-.form-modal:hover .email-modal {
+.form-modal:hover .email-modal,
+.form-modal:focus .email-modal {
   fill: #2196f3;
 }
 
